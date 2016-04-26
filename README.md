@@ -1,3 +1,3 @@
 # fluentd-armhf
 
-Fluentd Docker image for ARMv7.
+Fluentd Docker image with ElasticSearch plugin for ARMv7.
