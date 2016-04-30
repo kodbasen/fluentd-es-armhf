@@ -15,7 +15,7 @@ RUN apk update && \
   gem install --no-document json_pure jemalloc && \
   gem install --no-document fluentd -v ${FLUENTD_VERSION} && \
   gem install --no-document fluent-plugin-elasticsearch && \
-  gem install --no-document fluent-plugin-docker_metadata_filter && \
+  gem install --no-document fluent-plugin-kubernetes_metadata_filter && \
   apk del build-base && \
   rm -rf /tmp/* /var/tmp/* /var/cache/apk/*
 
